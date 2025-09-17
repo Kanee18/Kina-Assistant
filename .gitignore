@@ -1,37 +1,28 @@
-# File konfigurasi editor kode (opsional, tapi praktik yang baik)
+
 .vscode/
 .idea/
 
-# Kredensial rahasia dan kunci API
-# SANGAT PENTING: JANGAN PERNAH UNGGAH FILE INI!
 backend/.env
 
-# Direktori virtual environment Python
 backend/venv/
 
-# Cache dan file bytecode Python
 backend/__pycache__/
 **/*.pyc
 
-# File cache dan output yang dihasilkan oleh aplikasi
 backend/app_index.json
 backend/uploads/
 backend/outputs/
 command.wav
 response.wav
 
-# File sampel suara (sebaiknya pengguna menyediakan sendiri)
 backend/youtube_voice.wav
 backend/default_voice.wav
 
-# File log diagnostik yang kita buat
 backend/check_wav.py
 backend/list_models.py
 
-# --- Aturan untuk Frontend (jika/saat menggunakan React Native) ---
-# Direktori dependensi Node.js
+
 desktop-app/node_modules/
 
-# Log
 npm-debug.log*
 yarn-error.log*
